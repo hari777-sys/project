@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class exp {
     public void exe(){
         Scanner  sc = new Scanner(System.in);
-        System.out.println("enter your date  of joining:");
+        System.out.println("enter your date :");
         String exp = sc.nextLine();
         String arr[]=exp.split("/");
         int date= Integer.parseInt(arr[0]);

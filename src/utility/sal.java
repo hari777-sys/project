@@ -7,7 +7,7 @@ public class sal extends exp {
     public void salary(){
         double bpay,da,hra,pf,grspay,net_salary;
         Scanner sc= new Scanner(System.in);
-        System.out.println("enter the :");
+        System.out.println("enter the SALARIES:");
         bpay= sc.nextDouble();
         da=30.0/100.0*bpay;
         hra=15.0/100.0*bpay;
